@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Diary App</title>
+    <link rel="stylesheet" href="newrecord.css">
+</head>
+<body>
+    <h1>My Diary App</h1>
+    <form method="post" action="/newrecord">
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date" required>
+        <br>
+        <label for="title">Title:</label>
+        <input type="text" name="title" id="title" required>
+        <br>
+        <label for="content">Content:</label>
+        <textarea type="content" name="content" id="content"></textarea>
+        <br>
+        <button onclick="saveinfo()"> SUBMIT</button>
+    </form>
+    
+</body>
+</html>
